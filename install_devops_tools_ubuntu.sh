@@ -9,7 +9,7 @@ fi
 echo -ne  "
 ######################################################
 #                                                    #
-# A shell script to install devops tools on CentOS   #
+# A shell script to install devops tools on ubuntu   #
 #              BY MrKernel                           #
 #                                                    #
 ###################################################### "
