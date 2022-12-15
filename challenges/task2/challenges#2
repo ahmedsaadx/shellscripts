@@ -1,0 +1,6 @@
+2. Enhanced the previous script, by checking the type of string entered by a user:
+a. Upper Cases.
+b. Lower Cases.
+c. Numbers.
+d. Mix.
+e. Nothing.

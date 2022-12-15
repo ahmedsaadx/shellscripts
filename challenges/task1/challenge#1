@@ -1,0 +1,6 @@
+1. Write a script called mycase, using the case utility to checks the type of character
+entered by a user:
+a. Upper Case.
+b. Lower Case.
+c. Number.
+d. Nothing

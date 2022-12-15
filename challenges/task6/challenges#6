@@ -1,0 +1,2 @@
+6. Write a script called chkmail to check for new mails every 10 seconds. Note: mails are
+saved in /var/mail/username.
