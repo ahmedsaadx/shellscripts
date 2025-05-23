@@ -1,7 +1,7 @@
 #!/bin/bash
 # script to automate an RKE2 upgrade in an air-gapped environment
 
-VERSION_DIR="/root/rke2_versions/v1.27.16+rke2r2"                     
+VERSION_DIR="$1"                     
 ETCD_BACKUP_DIR="${VERSION_DIR}/etcd"             
 OLD_IMAGES_DIR="${VERSION_DIR}/old_images"
 RKE2_IMAGES_DIR="/var/lib/rancher/rke2/agent/images" 
@@ -17,7 +17,7 @@ CHECKSUM_FILE="sha256sum-amd64.txt"
 SOURCE_DIR="${VERSION_DIR}"
 TMP_DIR="/tmp/rke2"
 # Global variables for rollback
-SERVICE_NAME="rke2-server"
+SERVICE_NAME="$2"
 ROLLBACK_NEEDED=false
 
 verify_checksums() {
